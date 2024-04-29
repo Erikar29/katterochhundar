@@ -1,0 +1,82 @@
+body {
+  background-color: gray;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  height: 90vh;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 2fr 1fr 1fr;
+  grid-gap: 15px;
+}
+.hundar {
+  border: solid black 2px;
+  padding: 10px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.hundarbild {
+  border: solid black 2px;
+  padding: 10px;
+  grid-column-start: 4;
+  grid-column-end: 4;
+  position: relative;
+}
+.katter {
+  border: solid black 2px;
+  padding: 10px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.katterbild {
+  border: solid black 2px;
+  padding: 10px;
+  grid-column-start: 4;
+  grid-column-end: 4;
+}
+
+* {box-sizing: border-box;}
+
+.img-magnifier-container {
+  position: relative;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 75px;
+  height: 75px;
+}

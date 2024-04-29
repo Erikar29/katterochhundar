@@ -1,0 +1,140 @@
+body {
+  background-color: bisque;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  .hund-container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    height: 90vh;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-gap: 15px;
+  }
+  .hund1 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .bildd1 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 4;
+    grid-column-end: 4;
+  }
+
+  .hund2 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .bildd2 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 4;
+    grid-column-end: 4;
+  }
+
+  .hund3 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .bildd3 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 4;
+    grid-column-end: 4;
+  }
+
+  .hund4 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .bildd4 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 4;
+    grid-column-end: 4;
+  }
+
+  .hund5 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .bildd5 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 4;
+    grid-column-end: 4;
+  }
+
+  .hund6 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .bildd6 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 4;
+    grid-column-end: 4;
+  }
+
+  .hund7 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .bildd7 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 4;
+    grid-column-end: 4;
+  }
+
+  .hund8 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .bildd8 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 4;
+    grid-column-end: 4;
+  }

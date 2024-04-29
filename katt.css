@@ -1,0 +1,146 @@
+body {
+    background-color: beige;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+.katt-container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    height: 90vh;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.header {
+    display: grid;
+    place-items: center;
+}
+.katt1 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.bild1 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.katt2 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.bild2 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.katt3 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.bild3 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.katt4 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.bild4 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.katt5 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.bild5 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.katt6 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.bild6 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.katt7 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.bild7 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.katt8 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.bild8 {
+    border: solid black 2px;
+    padding: 10px;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
